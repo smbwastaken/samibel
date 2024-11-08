@@ -1,2 +1,2 @@
-# samibel
-Code of the Samibel cheat sheet, a phonetic system language self-made by SMB
+# The Samibel cheat sheet
+It's a website showing the fundamentals of how to pronounce Samibel letters and accents properly, and much more related to it.
