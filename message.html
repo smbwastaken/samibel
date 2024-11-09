@@ -46,7 +46,9 @@
       }
 
       .info {
-        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
       }
 
       .my-address {
@@ -55,7 +57,9 @@
         justify-self: left;
         background-color: #464646;
         padding: 10px 120px;
+        width: 300px;
         border-radius: 10px;
+        word-wrap: normal;
       }
       
       .forum-div {
@@ -98,6 +102,8 @@
 
       .that-link {
       	font-size: 0.7em;
+        width: 100px;
+        word-wrap: break-word;
       }
     </style>
 </head>
@@ -124,11 +130,11 @@
   If you want to send me a letter back, here's my home address, write it word-by-word exactly how it is:
   <br><br><br>
   <div class="my-address">
-    <p>M. Sami M. Bellabd</p>
-    <p>63 Rue Hadj Hamdi</p>
-    <p>Quartier M'sallah</p>
-    <p>Médéa, 26000</p>
-    <p>ALGERIA</p>
+    <p style="white-space: nowrap;">M. Sami M. Bellabd</p>
+    <p style="white-space: nowrap;">63 Rue Hadj Hamdi</p>
+    <p style="white-space: nowrap;">Quartier M'sallah</p>
+    <p style="white-space: nowrap;">Médéa, 26000</p>
+    <p style="white-space: nowrap;">ALGERIA</p>
   </div>
   <br>
   You can save it in your contacts to not lose it, or save this website's URL in your browser bookmarks, or write it somehwere, or memorise it idk.
