@@ -1,0 +1,193 @@
+html {
+  font-family: Inter, Helvetica, Arial, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: #fff7ed;
+  font-size: 1rem;
+  color: #30271d;
+}
+
+:root {
+  font-size: 20px;
+}
+
+/* ------------------------------ */
+
+.disclamer-div {
+  margin-top: 150px;
+  max-width: 500px;
+  justify-self: center;
+  border: solid 2px red;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.disclamer {
+  justify-self: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: red;
+}
+
+.disclamer-link {
+  color: blue;
+  &:hover {
+    color: #0cc6ff;
+  }
+  &:active {
+    color: orange;
+  }
+}
+
+.parag {
+  line-height: 1.7;
+}
+
+
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+}
+
+.intro {
+  width: 80vw;
+  background-color: antiquewhite;
+  padding: 20px 36px;
+  line-height: 36px;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 152px
+}
+/*#*/
+.intro p:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: #f7dbb7;
+}
+
+.ipa-abbr {
+  cursor: pointer;
+}
+
+.sub-ipa {
+  font-size: 60%;
+  margin-right: 4px;
+}
+
+.options {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  padding: 40px;
+  background-color: antiquewhite;
+  margin-top: 48px;
+  border-radius: 40px;
+}
+/*#*/
+.options div {
+  background-color: #f7dbb7;
+  padding: 20px;
+  width: 30px;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.letter {
+  display: flex;
+  justify-content: space-between;
+  width: 1fr;
+  height: 250px;
+  padding: 80px 15vw;
+  margin-top: 150px;
+  background-color: antiquewhite;
+  margin-bottom: 80px;
+  gap: 100px;
+}
+.letter-preview {
+  margin-right: 0px;
+}
+
+.letter-info-all {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.letter-info {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.letter-info1 {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.letter-info2 {
+  width: auto;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.letter-name {
+  font-size: 3.2rem;
+  font-weight: 800;
+  width: max-content;
+}
+
+.letter-category {
+  font-size: 0.97rem;
+  font-weight: 400;
+  color: #423b32;
+  margin-top: 8px;
+}
+
+.word-example {
+  font-weight: 600;
+  margin-bottom: 12px;
+  width: max-content;
+  text-align: end;
+}
+
+
+.word-example .the-word {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-left: 4px;
+}
+
+.word-example .the-word .boldness {
+  font-weight: 800;
+}
+
+.letter-bottom {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.letter-desc {
+  font-size: 0.78rem;
+  color: #423b32;
+}
+
+.letter-sound {
+  color: #30271d;
+  text-align: center;
+  margin-top: 30px;
+}
