@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+crawl-delay: 15
+
+Sitemap: https://smbwastaken.github.io/samibel/sitemap.xml
